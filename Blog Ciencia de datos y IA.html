@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La IA y la ciencia de datos - Cerebro virtual</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-300 font-sans antialiased selection:bg-cyan-500 selection:text-white leading-relaxed">
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-40 backdrop-blur-md bg-slate-950/90 border-b border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 h-14 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <div class="w-8 h-8 rounded-lg bg-cyan-500 text-slate-950 flex items-center justify-center font-bold text-xs tracking-wider">
+                    BLOG
+                </div>
+                <span class="font-bold text-sm text-white tracking-tight">La IA y la Ciencia de Datos</span>
+            </div>
+            
+            <nav class="hidden md:flex items-center space-x-5 text-xs text-slate-400">
+                <a href="#evolucion" class="hover:text-cyan-400 transition-colors">Evolución</a>
+                <a href="#cerebro-virtual" class="hover:text-cyan-400 transition-colors">Cerebro Virtual</a>
+                <a href="#contexto-global" class="hover:text-cyan-400 transition-colors">Contexto Global</a>
+                <a href="#entorno" class="hover:text-cyan-400 transition-colors">Entorno 4RI</a>
+                <a href="#impacto" class="hover:text-cyan-400 transition-colors">Impacto Profesional</a>
+                <a href="#referencias" class="hover:text-cyan-400 transition-colors">Referencias</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-3xl mx-auto px-4 sm:px-6 py-10">
+
+        <article class="space-y-12">
+            <!-- Article Main Header -->
+            <header class="space-y-4 border-b border-slate-800 pb-8">
+                <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
+                    La IA y la ciencia de datos
+                </h1>
+                <h2 class="text-xl sm:text-2xl font-semibold text-cyan-400">
+                    Cerebro virtual
+                </h2>
+
+                <!-- Nombres de Autores -->
+                <div class="pt-4 space-y-2">
+                    <p class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Nombres:</p>
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-slate-300">
+                        <li class="flex items-center space-x-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
+                            <span>Erick Santiago Martinez Caicedo</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
+                            <span>Alejandro Rojas Cárdenas</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
+                            <span>Angie Vanesa Morales Caycedo</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
+                            <span>Julian Alejandro Calderon Nieto</span>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+
+            <!-- Sección Evolución IA y Ciencia de Datos -->
+            <section id="evolucion" class="scroll-mt-20 space-y-6">
+                <div class="space-y-4">
+                    <div class="p-5 rounded-xl bg-slate-900 border border-slate-800 space-y-2">
+                        <h3 class="text-base font-bold text-cyan-400">Años 50-80 — Origen</h3>
+                        <p class="text-sm text-slate-300">
+                            Tras la Segunda Guerra Mundial varios profesionales y científicos como Alan Turing se preguntaron si una máquina podría pensar y en 1956 un grupo de investigadores se reunió en Dartmouth con la idea de que cualquier proceso de inteligencia humana podría describirse y simularse con precisión mediante una máquina así nació el término Inteligencia Artificial o también conocido como IA aunque la tecnología de la época era demasiado limitada para cumplir esa promesa.
+                        </p>
+                    </div>
+
+                    <div class="p-5 rounded-xl bg-slate-900 border border-slate-800 space-y-2">
+                        <h3 class="text-base font-bold text-cyan-400">Años 90-2010 — Nace la ciencia de datos</h3>
+                        <p class="text-sm text-slate-300">
+                            Mientras el Internet crece y los costos de almacenamiento disminuyen se generan volúmenes de datos, y las empresas se dan de cuenta de que si bien poseen la información carecen de la capacidad para interpretarla y es que esto ha dado lugar a la ciencia de datos, una combinación de estadística y programación diseñada para transformar ese océano de datos en decisiones prácticas.
+                        </p>
+                    </div>
+
+                    <div class="p-5 rounded-xl bg-slate-900 border border-slate-800 space-y-2">
+                        <h3 class="text-base font-bold text-cyan-400">Años 2010-2020 — El boom del Deep Learning</h3>
+                        <p class="text-sm text-slate-300">
+                            Las tarjetas gráficas, creadas originalmente para videojuegos resultaron ser perfectas para entrenar redes neuronales utilizando millones de puntos de datos simultáneamente y es que al combinarse con enormes bases de datos de imágenes y texto que permitió que la IA reconozca finalmente el habla, los rostros y el lenguaje con precisión, generando que las grandes empresas empiecen a integrar modelos de Ia en sus servicios.
+                        </p>
+                    </div>
+
+                    <div class="p-5 rounded-xl bg-slate-900 border border-slate-800 space-y-2 border-l-4 border-l-cyan-500">
+                        <h3 class="text-base font-bold text-cyan-400">Actualidad (2026) — De asistente a agente</h3>
+                        <p class="text-sm text-slate-300">
+                            El volumen y la complejidad de los datos empresariales crecen tan rápidamente que ya no basta con que la IA simplemente sugiera respuestas; las empresas necesitan que las tareas se ejecuten de forma completa y autónoma. En consecuencia, el año 2026 marca la transición hacia los «agentes de IA»: sistemas que operan de principio a fin bajo supervisión humana.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección Cerebro Virtual -->
+            <section id="cerebro-virtual" class="scroll-mt-20 space-y-6">
+                <h2 class="text-xl sm:text-2xl font-bold text-white tracking-tight border-b border-slate-800 pb-2">
+                    CEREBRO VIRTUAL
+                </h2>
+
+                <div class="space-y-4">
+                    <div class="p-5 rounded-xl bg-slate-900 border border-slate-800 space-y-2">
+                        <h3 class="text-base font-bold text-cyan-400">2005 — Nace el Blue Brain Project</h3>
+                        <p class="text-sm text-slate-300">
+                            Los neurocientíficos podrían estudiar neuronas individuales pero no comprendían cómo generaban el pensamiento de forma colectiva. Henry Markram se asoció con IBM porque simular un cerebro completo requiere una potencia de cálculo que solo una supercomputadora podía ofrecer y así comenzó el primer intento serio de reconstruir digitalmente un cerebro.
+                        </p>
+                    </div>
+
+                    <div class="p-5 rounded-xl bg-slate-900 border border-slate-800 space-y-2">
+                        <h3 class="text-base font-bold text-cyan-400">2009-2013 — Se vuelve un proyecto global</h3>
+                        <p class="text-sm text-slate-300">
+                            Simular el cerebro humano completo resultaba demasiado ambicioso para un solo laboratorio y es que se necesitaban más países, más dinero y más datos neurocientíficos combinados y por eso España lanzó su propia rama (Cajal Blue Brain) y en 2013 la Unión Europea decide financiarlo como proyecto insignia dándole presupuesto a gran escala.
+                        </p>
+                    </div>
+
+                    <div class="p-5 rounded-xl bg-slate-900 border border-slate-800 space-y-2">
+                        <h3 class="text-base font-bold text-cyan-400">2024 — El proyecto cierra</h3>
+                        <p class="text-sm text-slate-300">
+                            Para reconstruir un cerebro humano completo, célula por célula, resultó ser mucho más complejo de lo que se pensaban en 2005 ya que tras casi 20 años, el Blue Brain Project concluye sin lograr ese objetivo final, pero dejando como legado modelos digitales de partes del cerebro que otros científicos siguen usando.
+                        </p>
+                    </div>
+
+                    <div class="p-5 rounded-xl bg-slate-900 border border-slate-800 space-y-2">
+                        <h3 class="text-base font-bold text-cyan-400">Actualidad (2026) — El problema es la energía</h3>
+                        <p class="text-sm text-slate-300">
+                            Ya hoy en día el entrenamiento de la IA mediante chips de silicio consume cantidades grandísimas de electricidad, mientras que el cerebro humano realiza tareas más complejas con apenas 20 vatios por eso en consecuencia los científicos están yendo más allá de la simple replicación cerebral basada en software y ya comienzan a simular el cerebro en el propio hardware utilizando chips que integran neuronas reales o materiales que funcionan de manera análoga para que haya la misma eficiencia.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección Contexto Global -->
+            <section id="contexto-global" class="scroll-mt-20 space-y-4">
+                <h2 class="text-xl sm:text-2xl font-bold text-white tracking-tight border-b border-slate-800 pb-2">
+                    Contexto Global
+                </h2>
+
+                <div class="space-y-4 text-sm text-slate-300 leading-relaxed">
+                    <p>
+                        Desde un contexto global, la forma de ver la nueva neurociencia, es primeramente impresionante las expectativas tan grandes que se tiene de los cerebros virtuales. Lograr la simulación de las redes neuronales, impulsos eléctricos y proteínas que rodean todo un sistema complejo como el propio ser humano. También es un gran miedo el como este tipo de procesos puede replicar la conciencia, los recuerdos y las decisiones diarias en una máquina compleja. Uno de los mejores ejemplos para representar este tipo de cosas es el caso de la Simulación Cerebral.
+                    </p>
+
+                    <p>
+                        En marzo de 2026, la empresa Eon Systems Logró replicar y emular el comportamiento de la mosca en un espacio digital 3D, la empresa logró replicar más 140 mil redes neuronales y proyectarlas en un programa, para ver cómo se comporta la mosca en estos espacios, este aparte de ser un avance grandísimo para la ciencia el cual también permite expandir horizontes a la iniciación de proyectos para simular el cerebro u otros sistemas mucho más complejos, como, el cuerpo humano completo. Estas tecnologías en el siglo pasado eran solo simuladores visuales. Solo imagina poder lograr ver el mundo desde una persona virtual o incluso poder tener otra vida virtual.
+                    </p>
+
+                    <p>
+                        Siguiendo con los cerebros virtuales todo esto tiene una ventaja aún mayor en el área de la medicina. Gracias a estos simuladores ya permite analizar el comportamiento de algunas enfermedades neurológicas como la esquizofrenia o el Alzheimer, tal como lo menciona Allen Institute de Seattle por medio de supercomputadoras (fugaku). El cual logró replicar la corteza del cerebro de un ratón y por medio de una simulación lograron ver cómo el cerebro de la rata se comporta a ataques epilépticos y enfermedades como el Alzheimer, ellos lograron observar minuciosamente como la enfermedad ataca y se propaga por medio de las redes neuronales y el cerebro del ratón. Como se puede evidenciar en áreas como la psicología y la medicina logran aprovechar la emulación de un cerebro para la evolución de tal vez, curas contra enfermedades motrices o por parte de la psicología, mejores diagnósticos y entendimiento de trastornos mentales de lo que actualmente y por siglos han sido casos de estudio complejos.
+                    </p>
+
+                    <p>
+                        Pero como lo mencioné al principio, también existe el miedo de que este tipo de sistemas logre replicar o lograr el control de la humanidad. Aunque con los sistemas de IA y cerebros digitales se ve lejos, es una realidad que amerita tener un poco de preocupación. Un caso excepcional de eso es el caso de TRIBE V2, tal como lo menciona la misma página de META que es una gran herramienta que logra percibir estímulos como, sonidos, lenguaje y la vista, ganadora de Insights from the Algonauts 2025 quedando de primer lugar como el mejor proyecto presentado del año.
+                    </p>
+
+                    <p>
+                        Este sistema tiene como objetivo para los creadores de contenido y medios en general, ver cómo el contenido producido como, un video, un sonido o incluso una imagen interactúa con nuestro cerebro.
+                    </p>
+
+                    <p>
+                        En el marketing digital la palabra Hook o gancho funciona para describir una introducción que es específicamente atractiva o la forma en la que “atrapa” al receptor, entre mejor sea el gancho aumenta la probabilidad de que el video sea más visto o tenga más visitas, la gente en redes sociales siempre lucha por tu atención y este tipo de estrategias como el “hook” ayudaban a creadores de contenido a llegar más lejos en su contenido. Meta la gran compañía creo TRIBE V2 única y específicamente para que por medio del cerebro virtual mejore la productividad de este gancho y también mejore la calidad del contenido, no para hacer un mejor contenido sino para enganchar más tiempo a la pantalla al usuario.
+                    </p>
+
+                    <p>
+                        La problemática de este sistema surge en la gran era de consumismo y competición de atención que tenemos que como lo dice el Instituto para el futuro de la educación, hoy en día para la gente y para los adolescentes en específico el poner atención a clases o un trabajo por más de 5 minutos es toda una competencia, esto es debido al contenido masivo de corta duración que tenemos que genera una desviación en el cerebro haciendo que la gente tenga una deficiencia considerable en su calidad de atención y su forma de aprendizaje.
+                    </p>
+
+                    <p>
+                        Entender que hay todo un estudio y una ingeniería en la comercialización de la atención de los jóvenes para volver la adicción de la costumbre como el scroll infinito y gente con más de 10 horas en aplicaciones como tik tok o Instagram es un gran paso para ver que esta problemática no es solo culpa de los usuarios sino también de las empresas dueñas de esas aplicaciones. Finalmente es así como la IA y las redes neuronales o cerebros virtuales son toda una innovación tecnológica que brinda muchas oportunidades a todo el mundo y genera un contexto de prosperidad y exploración en el mundo de la ciencia como también nos puede dar un vistazo terrorífico de como el avance de la tecnología puede crear y replicar sino también ser usado para controlar masas gigantescas en muy poco tiempo.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Sección Entorno y Habitabilidad -->
+            <section id="entorno" class="scroll-mt-20 space-y-6">
+                <h2 class="text-xl sm:text-2xl font-bold text-white tracking-tight border-b border-slate-800 pb-2">
+                    Entorno y Habitabilidad
+                </h2>
+
+                <p class="text-sm text-slate-300 leading-relaxed">
+                    Dentro del marco de la Cuarta Revolución Industrial la Inteligencia Artificial (IA) y la Ciencia de Datos han ganado relevancia debido a su capacidad de procesar información y crear sistemas que puedan resolver tareas cada vez más complejas. El Cerebro Virtual tiene algo en común con este entorno tecnológico desde otro punto de vista porque según Rueda et al. (2021) los cerebros virtuales representan un nuevo enfoque al estudio del cerebro a través de modelos digitales los cuales ofrecen tanto nuevas oportunidades científicas como desafíos. Por lo tanto estas tres esferas pueden verse como elementos interconectados del mismo proceso tecnológico: la Ciencia de Datos permite analizar la información, la IA la utiliza para almacenar la información y hacer predicciones mientras que el Cerebro Virtual ayuda a modelar ciertos procesos relacionados con el cerebro. Así por ejemplo la información relacionada con la actividad cerebral puede ser procesada usando la Ciencia de Datos para encontrar ciertos patrones luego la IA puede usar los datos encontrados para crear modelos predictivos y un Cerebro Virtual puede usar modelos computacionales para simular ciertos comportamientos. Los resultados de la simulación pueden ser analizados nuevamente usando la Ciencia de Datos y por lo tanto estas tres esferas se complementan entre sí.
+                </p>
+
+                <!-- Ventajas -->
+                <div class="space-y-3">
+                    <h3 class="text-lg font-bold text-emerald-400">Ventajas</h3>
+                    <ul class="space-y-3 text-sm text-slate-300 list-disc list-inside">
+                        <li>
+                            <strong class="text-white">La capacidad de analizar grandes cantidades de información:</strong> Esta tecnología permite procesar la información, organizarla y buscar patrones que son utilizados por la inteligencia artificial para hacer predicciones y aprender.
+                        </li>
+                        <li>
+                            <strong class="text-white">La automatización y optimización de procesos:</strong> La inteligencia artificial puede llevar a cabo algunas operaciones más rápido y proporcionar la toma de decisiones mientras que el análisis de datos permite determinar dónde están los problemas y cómo mejorar las cosas.
+                        </li>
+                        <li>
+                            <strong class="text-white">El Cerebro Virtual aporta además la posibilidad de realizar simulaciones computacionales:</strong> Existe la posibilidad de realizar simulaciones computacionales utilizando El Cerebro Virtual: La Comisión Europea (2018) describe el uso de El Cerebro Virtual para simular redes neuronales y estudiar diversos fenómenos relacionados con diferentes trastornos neurológicos.
+                        </li>
+                        <li>
+                            <strong class="text-white">La interdisciplinariedad:</strong> Estas tecnologías nos brindan la oportunidad de aprovechar el conocimiento proveniente de la informática, las matemáticas, las estadísticas, la neurociencia y muchas otras ciencias, promoviendo así nuevas investigaciones e innovaciones.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Dificultades -->
+                <div class="space-y-3 pt-2">
+                    <h3 class="text-lg font-bold text-rose-400">Dificultades</h3>
+                    <ul class="space-y-3 text-sm text-slate-300 list-disc list-inside">
+                        <li>
+                            <strong class="text-white">La calidad y disponibilidad de los datos:</strong> El correcto funcionamiento de la Inteligencia Artificial y la ciencia de datos implica tener una cantidad adecuada de información correcta, de lo contrario los resultados obtenidos podrían estar distorsionados.
+                        </li>
+                        <li>
+                            <strong class="text-white">La privacidad y el uso responsable de la información:</strong> El uso de grandes cantidades de datos podría crear ciertos problemas relacionados con la protección de datos privados.
+                        </li>
+                        <li>
+                            <strong class="text-white">La complejidad del cerebro humano:</strong> El cerebro virtual no es una copia exacta del cerebro humano sino solo un modelo.
+                        </li>
+                        <li>
+                            <strong class="text-white">La necesidad de formación y adaptación profesional:</strong> La cooperación de las tecnologías de Inteligencia Artificial, ciencia de datos y cerebro virtual requiere conocimientos de varias áreas diferentes. Uno de los retos es que necesitamos profesionales de diferentes campos que puedan unir sus conocimientos y comprender cómo se podría hacer.
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Sección Impacto en el campo profesional -->
+            <section id="impacto" class="scroll-mt-20 space-y-6">
+                <h2 class="text-xl sm:text-2xl font-bold text-white tracking-tight border-b border-slate-800 pb-2">
+                    Impacto en el campo profesional
+                </h2>
+
+                <p class="text-sm text-slate-300 leading-relaxed">
+                    Esta interacción de 3 áreas trae consigo algunos cambios en el campo profesional ya que cambia tanto las herramientas disponibles como el conjunto de habilidades necesarias para trabajar.
+                </p>
+
+                <!-- Imagen representativa -->
+                <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 text-center space-y-2">
+                    <img src="Imagen.png" alt="Tres Tecnologías, Un Mismo Impacto" class="w-full h-auto rounded-lg border border-slate-800">
+                    <p class="text-xs text-slate-500 italic">(OpenAI, 2026)</p>
+                </div>
+
+                <p class="text-sm text-slate-300 leading-relaxed">
+                    <strong>Impacto profesional:</strong> Esta interacción de 3 áreas trae consigo algunos cambios en el campo profesional ya que cambia tanto las herramientas disponibles como el conjunto de habilidades necesarias para trabajar. Aparecen nuevas oportunidades profesionales las cuales están relacionadas con el análisis de datos, la Inteligencia Artificial, la investigación científica, el modelado computacional, la neuroinformática y el desarrollo de sistemas inteligentes. Según CEPAL (2026) el rol del talento humano y las habilidades en relación con la Inteligencia Artificial y los datos se vuelve cada vez más importante en el desarrollo tecnológico de América Latina. Además de la aparición de nuevos trabajos el impacto profesional consiste en un cambio en las tareas y habilidades de los profesionales. Ellos tendrán que aprender a cooperar con herramientas de Inteligencia Artificial, interpretar los resultados obtenidos con la ayuda del análisis de datos y comprender los límites de los modelos computacionales.
+                </p>
+
+                <p class="text-sm text-slate-300 leading-relaxed">
+                    En resumen el impacto combinado de estas tecnologías se puede ver en los siguientes tres grandes cambios: cambio en las tareas, la aparición de nuevas esferas profesionales y la necesidad de desarrollar nuevas habilidades.
+                </p>
+
+                <!-- Ejemplos Del Impacto -->
+                <div class="space-y-4 pt-2">
+                    <h3 class="text-lg font-bold text-white">Ejemplos Del Impacto En El Campo Profesional</h3>
+
+                    <p class="text-sm text-slate-300 leading-relaxed">
+                        A lo largo de la historia, los científicos de datos usaban hasta el 80% de su tiempo en tareas manuales de codificación; hoy gracias a la convergencia de la IA, los agentes autónomos y el modelado computacional, la profesión ha evolucionado hacia la estrategia de sistemas de extremo a extremo.
+                    </p>
+
+                    <p class="text-sm text-slate-300 leading-relaxed">
+                        Uno de estos casos se evidencia actualmente cuando el profesional despliega agentes de IA autónomos y herramientas de Auto ML para no verse obligado a limpiar el dato manualmente, simplemente diseña las directrices éticas y lógicas para que sea la función del agente limpiar, detectar anomalías y probar sistemáticamente docenas de modelos predictivos en minutos; su trabajo cambia de pasar días escribiendo scripts en Python o SQL para detectar valores nulos, eliminar duplicados, normalizar textos y realizar ingeniería de características, a validar que los datos de entrada no generen sesgos o distorsiones críticas, claramente vemos cómo esta tecnología es un facilitador para el cumplimiento de los deberes presentes en este campo profesional.
+                    </p>
+
+                    <p class="text-sm text-slate-300 leading-relaxed">
+                        Otro caso que podemos mencionar está relacionado al cerebro virtual mencionado anteriormente, mientras el análisis de datos se limitaba a modelos predictivos tradicionales (como regresiones lineales o clasificaciones básicas) proyectados en dashboards estáticos de Power BI o Excel, actualmente se trabaja directamente con infraestructura de supercomputación, utiliza herramientas avanzadas para procesar billones de puntos de datos de impulsos eléctricos; su rol no es solo analizar estadísticas del cerebro, sino estructurar las bases de datos gráficos vectoriales para que este cerebro logre realizar simulaciones de ataques epilépticos o el avance del alzheimer de manera tridimensional, el científico de datos simplemente se encarga de analizar los resultados de la simulación virtual para volver a optimizar los algoritmos utilizados.
+                    </p>
+
+                    <p class="text-sm text-slate-300 leading-relaxed">
+                        Finalmente en este ejemplo podemos ver un nuevo reto impuesto a los profesionales de esta área debido a los avances tecnológicos, mientras en el pasado el éxito de un científico de datos se medía únicamente por la precisión matemática de su modelo aislado en su computadora local, luego del desarrollo de las tecnologías de la 4RI, escribir códigos ya no es una ventaja competitiva porque la IA genera códigos complejos al instante, el científico de datos en la modernidad debe dominar el pensamiento de sistemas MLOps (operaciones de machine learning); al implementar modelos de base predictivos como el programa desarrollado por Meta AI “TRIBE V2” se le obliga al profesional a liderar la toma de decisiones estratégicas de la infraestructura.
+                    </p>
+
+                    <p class="text-sm text-slate-300 leading-relaxed">
+                        De estos ejemplos podemos concluir que este avance tiene impactos positivos como: la liberación de la carga operativa, aumentando la eficiencia ya que se tiene mayor velocidad de procesamiento y una automatización de pipelines, se eleva la estrategía del rol del profesional, generando una simulación computacional de alta complejidad y se ve como comienza a sobrepasar las barreras científicas causando una interdisciplinariedad, haciendo que se descubran nuevos patrones.
+                    </p>
+
+                    <p class="text-sm text-slate-300 leading-relaxed">
+                        Sin embargo son más los impactos negativos en cuanto al desplazamiento laboral del profesional, comenzamos a hablar de una obsolescencia acelerada de habilidades técnicas, desplazando estas tareas básicas e incluso ocasionando pérdida de empleos junior; se generan dilemas éticos como la ingeniería orientada a la manipulación de la atención del consumidor; adicionalmente se pueden producir problemas críticos de responsabilidad legal y sesgo algorítmico cuando se trabaja con modelos masivos autónomos ya que se complica la tarea de explicar por qué el algoritmo tomó una decisión específica, esto se denomina como “opacidad algorítmica” que se usa para indicar cuando se pierde la interpretabilidad del modelo.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Sección Referencias -->
+            <section id="referencias" class="scroll-mt-20 space-y-4 border-t border-slate-800 pt-8">
+                <h2 class="text-xl font-bold text-white">Referencias</h2>
+                <h3 class="text-sm font-semibold text-cyan-400 uppercase tracking-wider">Cerebro virtual</h3>
+                
+                <div class="space-y-2 text-xs text-slate-400 break-words leading-normal">
+                    <p class="pl-4 -indent-4">Agencia SINC. (2024). Entre el desafío científico y los nuevos enigmas: así concluye una década de investigación del cerebro. https://www.agenciasinc.es/Reportajes/Entre-el-desafio-cientifico-y-los-nuevos-enigmas-asi-concluye-una-decada-de-investigacion-del-cerebro</p>
+                    <p class="pl-4 -indent-4">Perera Molligoda Arachchige, A. S. (2023). The Blue Brain Project: Pioneering the frontier of brain simulation. AIMS Neuroscience. https://doi.org/10.3934/Neuroscience.2023024</p>
+                    <p class="pl-4 -indent-4">École Polytechnique Fédérale de Lausanne. (s.f.). Blue Brain Project. https://bluebrain.epfl.ch/</p>
+                    <p class="pl-4 -indent-4">Ecoosfera. (2026, 21 de abril). Copian cerebro de mosca y ahora vive en una simulación. https://ecoosfera.com/sci-innovacion/cerebro-mosca-emulacion-digital/</p>
+                    <p class="pl-4 -indent-4">Digital Too. (2026, 12 de marzo). La mosca virtual con cerebro real: así nació la primera IA embodied. https://www.digitaltoo.com/2026/03/12/mosca-virtual-cerebro-real-emulacion-embodied/</p>
+                    <p class="pl-4 -indent-4">Agencia EFE. (2026, 21 de marzo). Dispositivo inspirado en el cerebro humano podría cambiar el futuro de la inteligencia artificial. Prensa Libre. https://www.prensalibre.com/vida/tecnologia/dispositivo-inspired-en-el-cerebro-humano-podria-cambiar-el-futuro-de-la-inteligencia-artificial/</p>
+                    <p class="pl-4 -indent-4">Parolari, M. N. (2026, 11 de mayo). Científicos lograron fusionar 70.000 neuronas vivas con componentes electrónicos flexibles. Gizmodo en Español. https://es.gizmodo.com/cientificos-lograron-fusionar-70-000-neuronas-vivas-con-componentes-electronicos-flexibles-2000235480</p>
+                    <p class="pl-4 -indent-4">Hostinger. (2026). Estadísticas de la inteligencia artificial en 2026. https://www.hostinger.com/es/tutoriales/estadisticas-y-tendencias-de-ia</p>
+                    <p class="pl-4 -indent-4">Henry. (2026, 15 de junio). Tendencias en AI, data y desarrollo que van a marcar 2026. https://blog.soyhenry.com/tendencias-en-ai-data-y-desarrollo-que-van-a-marcar-2026/</p>
+                    <p class="pl-4 -indent-4">Emprendedores.es. (2026, 16 de febrero). 10 tendencias en datos e IA que marcarán la competitividad empresarial en 2026. https://emprendedores.es/inteligencia-artificial/tendencias-datos-ia-que-marcaran-competitividad-empresarial-2026/</p>
+                    <p class="pl-4 -indent-4">IBM. (2026, 21 de enero). Las tendencias que marcarán la IA y la tecnología en 2026. https://www.ibm.com/es-es/think/news/ai-tech-trends-predictions-2026</p>
+                    <p class="pl-4 -indent-4">Microsoft Source LATAM. (2025, 8 de diciembre). Qué viene en IA: 7 tendencias a seguir en 2026. https://news.microsoft.com/source/latam/features/ia/que-viene-en-ia-7-tendencias-a-seguir-en-2026/</p>
+                    <p class="pl-4 -indent-4">MIT Sloan Review México. (2026, 16 de enero). Cinco tendencias de IA y ciencia de datos que marcarán 2026. https://mitsloanreview.mx/data-ia-machine-learning/cinco-tendencias-de-ia-y-ciencia-de-datos-que-marcaran-2026/</p>
+                    <p class="pl-4 -indent-4">Comisión Económica para América Latina y el Caribe. (2025). Superar las trampas del desarrollo de América Latina y el Caribe en la era digital: El potencial transformador de las tecnologías digitales y la inteligencia artificial. CEPAL. https://www.cepal.org/es/publicaciones/80841-superar-trampas-desarrollo-america-latina-caribe-la-era-digital-potencial</p>
+                    <p class="pl-4 -indent-4">Comisión Económica para América Latina y el Caribe. (2026). Índice Latinoamericano de Inteligencia Artificial (ILIA) 2025: Hallazgos principales, IA aplicada y talento humano. CEPAL. https://www.cepal.org/es/publicaciones/86007-indice-latinoamericano-inteligencia-artificial-ilia-2025-hallazgos-principales</p>
+                    <p class="pl-4 -indent-4">Comisión Europea. (2019). La plataforma Virtual Brain simula el encéfalo para revelar los orígenes de las enfermedades. CORDIS. https://cordis.europa.eu/article/id/125259-the-virtual-brain-simulates-the-brain-to-reveal-the-origins-of-disorders/es</p>
+                    <p class="pl-4 -indent-4">Evers, K., & Salles, A. (2021). Desafíos epistémicos de los gemelos digitales y los cerebros virtuales: Perspectivas desde la neuroética fundamental. SCIO. Revista de Filosofía, 21, 27–53. https://doi.org/10.46583/scio_2021.21.846</p>
+                    <p class="pl-4 -indent-4">Miao, F., & Holmes, W. (2023). Guía para el uso de IA generativa en educación e investigación. Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura. https://www.unesco.org/es/articles/guia-para-el-uso-de-ia-generativa-en-educacion-e-investigacion</p>
+                    <p class="pl-4 -indent-4">Organización de las Naciones Unidas para el Desarrollo Industrial. (2021). ¿Qué es la cuarta revolución industrial? Industrial Analytics Platform. https://iap.unido.org/index.php/es/articles/que-es-la-cuarta-revolucion-industrial</p>
+                    <p class="pl-4 -indent-4">Meta AI. (2026, 26 de marzo). Introducing TRIBE v2: A predictive foundation model trained to understand how the human brain processes complex stimuli. Meta AI. https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model</p>
+                    <p class="pl-4 -indent-4">Scotti, P. S., & Tripathy, M. (2025, 14 de agosto). Insights from the Algonauts 2025 winners. arXiv. https://arxiv.org/html/2508.10784v1</p>
+                    <p class="pl-4 -indent-4">Gutiérrez Argüelles, C. (2026, 21 de abril). “Clonaron” el cerebro de una mosca y ahora vive dentro de una computadora: Este es el resultado. Ecoosfera. https://ecoosfera.com/sci-innovacion/cerebro-mosca-emulacion-digital/</p>
+                    <p class="pl-4 -indent-4">France 24 Español. (2025, 25 de noviembre). Así funciona el cerebro digital “más preciso” creado con un supercomputador. France 24.</p>
+                    <p class="pl-4 -indent-4">Dueweke, L. (2025, 17 de noviembre). One of world’s most detailed virtual brain simulations is changing how we study the brain. Allen Institute. https://alleninstitute.org/news/one-of-worlds-most-detailed-virtual-brain-simulations-is-changing-how-we-study-the-brain/</p>
+                    <p class="pl-4 -indent-4">Arfadia Digital Marketing Agency. (2026). What is hook? Compelling marketing opener explained. Arfadia. https://www.arfadia.com/glossary/hook</p>
+                    <p class="pl-4 -indent-4">Delgado, P. (2025, 13 de agosto). Atención en declive: Cómo la tecnología afecta nuestra capacidad de concentración. Observatorio del Instituto para el Futuro de la Educación. https://observatorio.tec.mx/atencion-en-declive-como-la-tecnologia-afecta-nuestra-capacidad-de-concentracion</p>
+                    <p class="pl-4 -indent-4">Sanz-Leon, P., Knock, S. A., Woodman, M. M., Domide, L., Mersmann, J., McIntosh, A. R., & Jirsa, V. K. (2013). The Virtual Brain: a simulator of primate brain network dynamics. Frontiers in Neuroinformatics, 7, 10. https://www.semanticscholar.org/paper/The-Virtual-Brain%3A-a-simulator-of-primate-brain-Sanz-Leon-Knock/c0d276f4cff85c2120a90c87b32eb5ad5b0f30bb?utm_source=direct_link</p>
+                    <p class="pl-4 -indent-4">Wang, H. E., & Jirsa, V. K. (2025). Virtual Brain Inference (VBI): Probabilistic inference and deep neural density estimators on whole-brain models. Nature Computational Science, 5(3), 201-215. https://www.biorxiv.org/content/10.1101/2025.01.21.633922v3</p>
+                    <p class="pl-4 -indent-4">Scotti, P. S., & Tripathy, M. (2025). Insights from the Algonauts 2025 challenge. arXiv preprint arXiv:2508.10784. https://paulscotti.substack.com/p/insights-from-the-algonauts-2025?utm_campaign=post-expanded-share&utm_medium=web</p>
+                </div>
+            </section>
+
+            <!-- Nota sobre el uso de IA -->
+            <footer class="space-y-3 border-t border-slate-900 pt-6 text-xs text-slate-500">
+                <h4 class="font-bold text-slate-400">Nota sobre el uso de IA</h4>
+                <p>
+                    Para la elaboración de este contenido se utilizó inteligencia artificial (Claude) como herramienta de apoyo para resolver dudas conceptuales, organizar la información recopilada y revisar la ortografía y redacción del texto. Las fuentes y la información presentada fueron verificadas y contrastadas con las referencias citadas.
+                </p>
+                <p class="italic text-[11px] text-slate-600">
+                    OpenAI. (2026). Tres tecnologías, un mismo impacto: De la automatización al conocimiento, hacia la comprensión del cerebro [Imagen generada por inteligencia artificial]. ChatGPT.
+                </p>
+            </footer>
+        </article>
+    </main>
+</body>
+</html>
